@@ -5,13 +5,14 @@ import { themes } from "prism-react-renderer";
 
 const config: Config = {
   title: "TagoCore Docs",
-  url: "https://tagocore.com",
-  baseUrl: "/docs/",
+  url: "https://docs.tagocore.com",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "tago-io", // Usually your GitHub org/user name.
-  projectName: "tcore", // Usually your repo name.
+  organizationName: "tago-io",
+  projectName: "docs.tagocore.com",
+  trailingSlash: false,
 
   plugins: [
     // ... Your other plugins.
