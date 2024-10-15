@@ -23,7 +23,7 @@ There are 2 (two) categories inside of this trigger type:
 ### Trigger Conditions
 After setting up the [Device](/device), you should set a condition for your Action to be executed.
 
-<img className="big-image" src="/docs/img/action/action-conditions.png" height="100px" />
+<img className="big-image" src="/img/action/action-conditions.png" height="100px" />
 
 1. **Select a variable** to be tested. This will be one of the variables that will be compared against the data from the device.
 2. **Define the type** of condition to test the variable. The available test conditions are:

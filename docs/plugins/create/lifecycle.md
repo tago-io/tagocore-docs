@@ -83,7 +83,7 @@ the plugin will still be loaded normally and its state will still be `started`.
 However, the Module will have its state as `stopped` and the error will appear in the `Plugin Configuration`
 page of your Plugin, under your Module's status:
 
-<img className="big-image" src="/docs/img/plugin/onload-error.png" height="150px" />
+<img className="big-image" src="/img/plugin/onload-error.png" height="150px" />
 
 This functionality is a great tool for you to indicate that something is not quite right in your Plugin, or that
 some unexpected error happened while trying to start/stop your Module.

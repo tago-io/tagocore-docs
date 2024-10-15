@@ -12,7 +12,7 @@ The default communication between external devices and TagoCore is done through 
 
 ## Adding a Device
 
-To add a new device, press the&nbsp; <img className="inline-image" src="/docs/img/device/add-device-button.png" height="25px" /> &nbsp;button on the **Devices** page. Once you press the button, a new Device will automatically be created with the name **New Device**.
+To add a new device, press the&nbsp; <img className="inline-image" src="/img/device/add-device-button.png" height="25px" /> &nbsp;button on the **Devices** page. Once you press the button, a new Device will automatically be created with the name **New Device**.
 
 :::info
 When a Device is created, TagoCore automatically creates a [Bucket](/bucket) for it with the same name.

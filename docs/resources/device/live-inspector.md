@@ -10,7 +10,7 @@ Live Inspector is a useful tool for developers to debug [Payload Parser scripts]
 
 ## How to activate it
 
-To activate the Live Inspector of a Device, click the&nbsp; <img src="/docs/img/device/live-inspector-play-button.png" height="25px" /> &nbsp;button.
+To activate the Live Inspector of a Device, click the&nbsp; <img src="/img/device/live-inspector-play-button.png" height="25px" /> &nbsp;button.
 
 While the Live Inspector is active, all traffic related to the Device will be monitored in real time and each package sent will be recorded and displayed on the screen.
 
@@ -20,4 +20,4 @@ The Live Inspector will only stay activated while the Device page is open. It wi
 
 ## How to deactivate it
 
-To deactivate the Live Inspector of a Device, click the&nbsp; <img src="/docs/img/device/live-inspector-stop-button.png" height="25px" /> &nbsp;button.
+To deactivate the Live Inspector of a Device, click the&nbsp; <img src="/img/device/live-inspector-stop-button.png" height="25px" /> &nbsp;button.

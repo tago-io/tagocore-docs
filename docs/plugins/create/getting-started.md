@@ -116,7 +116,7 @@ created your Plugin in TagoCore's default Plugin folder, all you have to do is r
 
 Once you do so, you should see something like this as soon as the application starts:
 
-<img className="big-image" src="/docs/img/plugin/getting-started-loaded.png" height="40px" />
+<img className="big-image" src="/img/plugin/getting-started-loaded.png" height="40px" />
 
 ### Give users options
 

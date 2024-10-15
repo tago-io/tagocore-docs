@@ -16,4 +16,4 @@ To get started, head over to our [Downloads page](https://tagocore.com#download)
 - MacOS x64
 - Windows x64
 
-After you download TagoCore, follow the [Installation](/docs/installation) steps.
+After you download TagoCore, follow the [Installation](/installation) steps.

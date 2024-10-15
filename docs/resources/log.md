@@ -8,7 +8,7 @@ slug: /log
 
 Application Logs allow you to visualize the logs of the application and plugins.
 
-To access this page, click on the &nbsp;<img src="/docs/img/icons/scroll.svg" width="15px"/>&nbsp; button located on the upper right-hand corner of the screen.
+To access this page, click on the &nbsp;<img src="/img/icons/scroll.svg" width="15px"/>&nbsp; button located on the upper right-hand corner of the screen.
 
 
 ## Channel

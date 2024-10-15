@@ -6,7 +6,7 @@ slug: /settings
 
 # Settings
 
-The settings page allows you to modify any configuration related to TagoCore. You can visit this page by clicking on the &nbsp;<img src="/docs/img/icons/cog.svg" width="15px"/>&nbsp; button on the sidebar.
+The settings page allows you to modify any configuration related to TagoCore. You can visit this page by clicking on the &nbsp;<img src="/img/icons/cog.svg" width="15px"/>&nbsp; button on the sidebar.
 
 Settings are saved to a `.yml` file located in the `tagocore` folder, which resides in your Operating System's `Home Directory`.
 

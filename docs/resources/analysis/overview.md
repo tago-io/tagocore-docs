@@ -11,9 +11,9 @@ Analysis is a powerful feature that experts and developers can use to implement 
 
 ## Adding an Analysis
 
-To add a new Analysis, press the&nbsp; <img className="inline-image" src="/docs/img/analysis/add-analysis-button.png" height="25px" /> &nbsp;button on the **Analyses** page. Once you press the button, the **Add Analysis** modal will appear for you to insert a new Analysis:
+To add a new Analysis, press the&nbsp; <img className="inline-image" src="/img/analysis/add-analysis-button.png" height="25px" /> &nbsp;button on the **Analyses** page. Once you press the button, the **Add Analysis** modal will appear for you to insert a new Analysis:
 
-<img className="big-image" src="/docs/img/analysis/add-analysis-modal.png" height="200px" />
+<img className="big-image" src="/img/analysis/add-analysis-modal.png" height="200px" />
 
 In this modal, you must define a name for your Analysis in order to continue.
 
@@ -44,7 +44,7 @@ The File path field allows you to select a file that will be passed as a command
 
 Let's pretend you want to run code in Node.js. To achieve this, you could install [nvm](https://github.com/nvm-sh/nvm) in your local machine and then use the `node` executable provided by nvm in the **Binary executable path** field. After this, you may select a file in the **File path** field, like so:
 
-<img className="big-image" src="/docs/img/analysis/code-section.png" width="70%" />
+<img className="big-image" src="/img/analysis/code-section.png" width="70%" />
 
 Under the hood, TagoCore would use the following terminal command to run your analysis:
 

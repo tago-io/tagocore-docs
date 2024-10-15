@@ -11,7 +11,7 @@ plugin manually you have two choices:
 
 ## Install via the sidebar
 
-TagoCore's sidebar allows you to quickly install a bundled (.tcore) plugin file. Look for the &nbsp;<img src="/docs/img/icons/puzzle-piece.svg" width="15px"/>&nbsp; button in the sidebar and click on it.
+TagoCore's sidebar allows you to quickly install a bundled (.tcore) plugin file. Look for the &nbsp;<img src="/img/icons/puzzle-piece.svg" width="15px"/>&nbsp; button in the sidebar and click on it.
 
 :::info
 This option is designed to load bundled (.tcore) files. If you have a simple Node.js project, go to the next option.

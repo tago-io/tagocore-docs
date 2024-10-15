@@ -27,14 +27,14 @@ If something goes wrong during this validation process, an error will be logged 
 
 ## Clearing logs
 
-If you ever feel like there is too much information in your Console, feel free to click the &nbsp;<img src="/docs/img/icons/ban.svg" width="15px"/> &nbsp;button to hide all the logs and make room for new ones.
+If you ever feel like there is too much information in your Console, feel free to click the &nbsp;<img src="/img/icons/ban.svg" width="15px"/> &nbsp;button to hide all the logs and make room for new ones.
 
 Clearing logs is a temporary measure, all the logs will be back if you leave the Analysis' page and come back.
 
 
 ## Downloading logs
 
-TagoCore offers the possibility to download the logs of your Analysis by clicking the &nbsp;<img src="/docs/img/icons/download.svg" width="15px" /> &nbsp;button located in the Console header. The logs will be downloaded as a **.txt** file.
+TagoCore offers the possibility to download the logs of your Analysis by clicking the &nbsp;<img src="/img/icons/download.svg" width="15px" /> &nbsp;button located in the Console header. The logs will be downloaded as a **.txt** file.
 
 :::info
 Only the logs currently visible on the screen will be downloaded. If you clear the logs before downloading, the log file will be empty.
