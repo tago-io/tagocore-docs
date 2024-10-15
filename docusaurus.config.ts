@@ -101,7 +101,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Tago, LLC. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} TagoIO Inc. Built with Docusaurus.`,
     } satisfies Preset.ThemeConfig,
     prism: {
       theme: themes.vsLight,
