@@ -1,6 +1,7 @@
 {
   "name": "@tago-io/tagocore-docs",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
