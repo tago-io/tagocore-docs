@@ -11,7 +11,7 @@ Plugins are programs or applications created by the community and TagoIO that ex
 
 ## Prerequisites
 
-Like TagoCore itself, Plugins are built using Node.js. You’ll need an understanding of **JavaScript** and **Node.js** to
+Like TagoCore itself, Plugins are built using Node.js. You’ll need an understanding of **JavaScript** or **TypeScript** and **Node.js** to
 develop plugins. You should take a look at our [Prerequisites](/plugins/create/prerequisites) before starting.
 
 ## Lifecycle
@@ -24,15 +24,7 @@ Plugins. Learn more about a [Plugin's Lifecycle](/plugin/create/lifecycle).
 This tutorial will build a Plugin that allows the user to set a port for an HTTP server to start.
 It will use many Plugin components to give an introductory demonstration of their relationships.
 
-To start, you must create a new directory in TagoCore's default Plugin Folder. This folder is located in your user
-profile directory. In **Windows** systems it has the name of `TagoCore`, and on **Unix-like** systems it has the
-name `.tagocore`.
-
-```bash
-cd ~/.tagocore/Plugins
-mkdir my-plugin
-cd my-plugin
-```
+To begin, you need to create a new directory where your plugin will be located.
 
 Now, we must start a new Node.js project. To do so, run the following command by opening up a terminal in the newly
 created folder:
@@ -44,7 +36,7 @@ npm init --yes
 ### Manifest
 
 Every Plugin needs a [manifest](/plugins/create/manifest). The Plugin manifest is defined within the package.json
-of your project, so open the `package.json` file in your favorite text editor and add a `tagocore` property to it.
+of your project, so open the `package.json` file in your favorite text editor and add a `tcore` property to it.
 
 Your Plugin's `package.json` should look something like this:
 
@@ -112,7 +104,7 @@ case, we are creating a Service Module so we must add a `service` type to the ma
 ### Installing your Plugin
 
 Your Plugin is ready. It doesn't do anything, but it can already be installed in TagoCore. Since you already have
-created your Plugin in TagoCore's default Plugin folder, all you have to do is restart TagoCore.
+created your Plugin you need to install it [Manually](/plugins/install/manually).
 
 Once you do so, you should see something like this as soon as the application starts:
 

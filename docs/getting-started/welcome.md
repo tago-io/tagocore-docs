@@ -17,14 +17,10 @@ We know your time is valuable, so we'll help you understand TagoCore in 5 minute
 TagoCore is a **free**, **fast**, and **open-source** IoT platform for edge computing that you can use to parse,
 and analyze the data from your devices!
 
-TagoCore supports all major operating systems, and can be downloaded in our
-[Downloads page](https://tagocore.com/#download).
-
-Once you have downloaded and extracted TagoCore, you can run it by opening a terminal in the folder
-where the `tagocore` binary is located and typing the following command:
+TagoCore can be downloaded and executed using Docker by typing the following command:
 
 ```shell
-./tagocore
+docker run -p 8888:8888 -p 8999:8999 tagoio/tagocore
 ```
 
 That's it! TagoCore is up and running. ⚡

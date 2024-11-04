@@ -7,12 +7,12 @@ slug: /installation
 # Installing TagoCore
 
 :::info
-To install TagoCore, you need to [Download it](/) first.
+To install TagoCore, you need to [Download it](/download) first.
 :::
 
 ## Decompressing
 
-TagoCore can be downloaded either as a compressed `tar.gz` file or a compressed `zip` file, and in both cases you need to decompress the file before using TagoCore.
+TagoCore code can be downloaded either as a compressed `tar.gz` file or a compressed `zip` file, and in both cases you need to decompress the code before using TagoCore.
 
 ### .tar.gz
 
@@ -38,16 +38,12 @@ This command uses the `zip` command to decompress the `.zip` file in the current
 
 ## Executing TagoCore
 
-After you decompress the downloaded file, you may execute the following command to list the files in the current directory:
+After you decompress the downloaded code, you may execute the following command to execute the TagoCore:
 
 ```shell
-ls
-```
-
-You should see a file named `tagocore` in there. Simply execute it:
-
-```shell
-./tagocore
+just install
+just build-console
+just server
 ```
 
 As soon as TagoCore runs, it will open a webserver and output the URL of the server in the terminal:

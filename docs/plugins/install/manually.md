@@ -6,29 +6,20 @@ slug: /plugins/install/manually
 
 # Install Plugin Manually
 
-Maybe you are developing a Plugin or maybe you have received a bundled plugin from someone and you want to install it manually. In either case, to install a 
-plugin manually you have two choices:
+Maybe you are developing a Plugin or maybe you have received a plugin from someone and you want to install it manually. In either case, to install a plugin manually, you have two options:
 
 ## Install via the sidebar
 
-TagoCore's sidebar allows you to quickly install a bundled (.tcore) plugin file. Look for the &nbsp;<img src="/img/icons/puzzle-piece.svg" width="15px"/>&nbsp; button in the sidebar and click on it.
+TagoCore's sidebar allows you to quickly install a plugin by selecting its folder where the package.json file is located. Look for the &nbsp;<img src="/img/icons/puzzle-piece.svg" width="15px"/>&nbsp; button in the sidebar and click on it.
 
-:::info
-This option is designed to load bundled (.tcore) files. If you have a simple Node.js project, go to the next option.
-::: 
+## Install via settings file
 
-## Add to the Plugin Folder
+To begin, you need to find the tagocore.yml file in the TagoCore folder. This folder is located in your user profile directory. On **Windows** systems, it is named `TagoCore`, while on **Unix-like** systems, it is named `.tagocore`.
 
-If your plugin is not bundled, you need to copy the Node.js project to a subfolder in the `Plugin Folder` defined in your TagoCore's settings. After copying the project in that folder, simply restart TagoCore and your Plugin will be loaded.
+In that file, there is a property named `custom_plugins`. In that property, you must enter the folder path to your plugin.
 
-This is what the structure in the `Plugin Folder` should look like:
-
-```
-plugin_folder
-  - my_plugin_1
-      package.json
-      ...
-  - my_plugin_2
-      package.json
-      ...
+```yml
+custom_plugins:
+  - /path_to_your_plugin/folder_plugin_one
+  - /path_to_your_plugin/folder_plugin_two
 ```
