@@ -61,4 +61,4 @@ Check out our [Action Overview](/action) to learn more.
 Plugins are extensions that allow developers to add or modify TagoCore functionalities. You can develop your own
 plugin or install plugins from other developers by using the Plugin Store.
 
-If you are interested in Plugins, you should take a look in our [Plugin Overview](/plugin) article.
+If you are interested in Plugins, you should take a look in our [Plugin Overview](/plugins) article.
