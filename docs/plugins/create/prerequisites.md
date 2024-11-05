@@ -13,13 +13,11 @@ While it is not necessary, other tools may come in handy when developing more co
 these tools before starting to write plugins, but they may be useful at some point.
 
 - [TypeScript](https://npmjs.com/package/typescript), to make navigating the API easier and write robust plugins;
-- [Webpack](https://www.npmjs.com/package/webpack) or [Esbuild](https://www.npmjs.com/package/esbuild), to bundle large
-multi-file projects;
 - [Visual Studio Code](https://code.visualstudio.com/) as an IDE, to accelerate the development of your Plugin.
 
 You do **not** need to have experience with front-end UI libraries such as React or Vue. TagoCore creates and manages
 your Plugin's user interface via a JSON structure.
 
 :::info Important
-You should use **Node.js version 14** or greater to build plugins for TagoCore.
+You should use **Node.js version 20** or greater to build plugins for TagoCore.
 :::

@@ -6,14 +6,6 @@ slug: /download
 
 # Download Tagocore
 
-To get started, head over to our [Downloads page](https://tagocore.com#download) and grab the right version for you. We offer support to all major operating systems, in the form of the following architectures:
+To get started, you can either download and execute using Docker or [download the release](https://github.com/tago-io/tagocore/releases/latest) code from the Download release page and execute it.
 
-- Alpine x64
-- Alpine ARM64
-- Linux x64
-- Linux ARM64
-- Linux ARMv7
-- MacOS x64
-- Windows x64
-
-After you download TagoCore, follow the [Installation](/installation) steps.
+After downloading the code, you have to follow the [Installation](/installation) steps.

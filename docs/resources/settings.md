@@ -31,24 +31,6 @@ This field requires TagoCore to restart for it to take effect.
 This configuration only affects TagoCore, and not any plugins that may start web servers.
 :::
 
-## Telemetry
-
-Telemetry allows the TagoCore team to receive anonymous data usage of your TagoCore. This includes things like how many [Buckets](/bucket) and [Devices](/device) you have, as well as how much Data Input/Output you are using.
-
-:::tip
-This field requires TagoCore to restart for it to take effect.
-:::
-
-## Plugins folder
-
-This field allows you to select the directory where you want to save the Plugins that you install.
-
-Only the Plugins that are in this directory are loaded when TagoCore starts.
-
-:::tip
-This field requires TagoCore to restart for it to take effect.
-:::
-
 ## Database plugin
 
 This field allows you to define which Database plugin you want to use.
@@ -65,12 +47,18 @@ This field requires TagoCore to restart for it to take effect.
 Data is not replicated between database plugins.
 :::
 
-## Updates
+## Queue Plugin
 
-This configuration allows TagoCore to automatically update plugins to newer versions.
-
-You can define how frequent the system will check for updates.
+This field allows you to define which Queue plugin you want to use.
 
 :::info Good to know
-A Backup of each plugin is created before automatically updating, so if a newer plugin version fails during the install, the old version will be automatically restored.
+This field requires TagoCore to restart for it to take effect.
+:::
+
+## Filesystem Plugin
+
+This field allows you to define which Filesystem plugin you want to use. By default, it must be the Local Disk Filesystem plugin.
+
+:::info Good to know
+This field requires TagoCore to restart for it to take effect.
 :::

@@ -28,6 +28,7 @@ const config: Config = {
         // language: ["en", "zh"],
         // ```
         // When applying `zh` in language, please install `nodejieba` in your project.
+
       },
     ],
   ],
@@ -39,7 +40,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/", // Serve the docs at the site's root
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/tago-io/tcore-docs/tree/main/",
+          editUrl: "https://github.com/tago-io/tagocore-docs/tree/main/",
         },
         blog: false,
         theme: {
@@ -96,7 +97,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/tago-io/tcore",
+              href: "https://github.com/tago-io/tagocore",
             },
           ],
         },
